@@ -1,0 +1,9 @@
+{application,proj2,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"proj2"},
+              {modules,['Elixir.GetNeighbor','Elixir.GossipDriver',
+                        'Elixir.GossipNode','Elixir.GossipSupervisor',
+                        'Elixir.Proj2','Elixir.PushSumDriver',
+                        'Elixir.PushSumNode','Elixir.PushSumSupervisor']},
+              {registered,[]},
+              {vsn,"0.1.0"}]}.
