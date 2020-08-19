@@ -60,12 +60,13 @@ We record the start time point with Elixir's build in function "System.monotonic
 
 ## What is the largest network we managed to deal with for each type of topology and algorithm
 
-Topology         |Gossip   |Push Sum
-Full             |5000     |9000
-Line             |20000    |20000
-Random 2D        |2000     |2000
-3D Torus         |1500     |1500
-Honeycomb        |16900    |14400
-Random Honeycomb |16900    |14400  
+| Topology | Gossip |Push Sum |
+| ----------- | ----------- | ----------- |
+| Full | 5000 |9000 |
+| Line | 20000 |20000 |
+| Random 2D | 2000 |2000 |
+| 3D Torus | 1500 |1500 |
+| Honeycomb | 16900 |14400 |
+| Random Honeycomb | 16900 |14400 | 
 
 
